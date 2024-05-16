@@ -3,31 +3,94 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #1f1f1f;
+    color: #ffffff;
 }
 
 header {
-    background-image: url('../assets/background.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
+    background-color: #333333;
+    padding: 20px;
     text-align: center;
-    padding: 100px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
 }
 
 main {
     padding: 20px;
 }
 
-#visits {
-    text-align: center;
+section {
+    margin-bottom: 20px;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #333333;
+    color: #ffffff;
     text-align: center;
     padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+a {
+    color: #0e354e;
+}
+
+a:hover {
+    color: #0e354e;
+}
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+/* Header styles */
+header {
+    background-color: #333333; /* Dark header */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; /* White text for headings */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333333; /* Dark footer */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Link styles */
+a {
+    color: #0e354e; /* Blue links */
+}
+
+a:hover {
+    color: #0e354e; /* Darker blue on hover */
 }
