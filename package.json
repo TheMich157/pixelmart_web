@@ -1,1 +1,10 @@
-"build": "parcel build index.html --out-dir dist"
+{
+  "name": "PixelMart",
+  "version": "1.0.0",
+  "description": "Description of my website",
+  "scripts": {
+    "start": "open index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
